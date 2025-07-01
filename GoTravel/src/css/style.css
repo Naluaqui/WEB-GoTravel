@@ -141,6 +141,7 @@ header button:hover {
     gap: 10px;
     text-transform: uppercase;
     margin: 40px;
+    height: 1vh;
 }
 .discoverySection h4 {
     font-weight: 700;
@@ -173,4 +174,84 @@ header button:hover {
 }
 .rightArrow {
     background-color: var(--azulPrincipal);
+}
+.places {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.local img {
+    height: 70vh;
+}
+.local div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.local button {
+    background-color: var(--azulPrincipal);
+    border: none;
+    color: var(--marfim);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.local button:hover {
+    background-color: var(--azulOceano);
+}
+.valuePropositionSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 15px;
+    gap: 0;
+}
+.valuePropositionSection h1 {
+    font-family: "Salsa", cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.valuePropositionSection p {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30vh;
+}
+.card {
+    height: 70vh;
+    background-color: #1B1BE0;
+    width: 50vh;
+}
+.discountsSection {
+    display: flex;
+    gap: 15vh;
+    align-items: center;
+    margin: 15px;
+    margin-top: 20vh;
+}
+.discountsSection aside {
+    align-items: start;
+    flex-direction: column;
+}
+.discountsSection aside img {
+    height: 100vh;
+}
+.headLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vh;
+    border: 2px solid var(--azulOceano);
+    flex-direction: column;
+}
+.headLine p:nth-child(1)  {
+    font-family: "Salsa", cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
