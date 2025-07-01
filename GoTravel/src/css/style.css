@@ -17,3 +17,160 @@
     border-radius: 25px;
     color: #2C302F;
 }
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 0 auto;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin: 15px;
+}
+.logo img {
+    height: 60px;
+    width: 60px;
+}
+.logo h1 {
+    font-family: "Salsa", cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #1B59E0 25%, #2C302F 25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    gap: 35px;
+}
+header nav ul li {
+    list-style: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+header nav ul li a:hover {
+    color: var(--azulPrincipal);
+}
+header button {
+    margin: 15px;
+    font-size: 18px;
+    background-color: var(--cinzaEscuro);
+    color: var(--marfim);
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    width: 70px;
+}
+header button:hover {
+    background-color: var(--azulPrincipal);
+    border: none;
+}
+.heroSection {
+    margin: 15px;
+    height: auto;
+    width: auto;
+}
+.heroPrincialDiv {
+    background: 
+    linear-gradient(to right, rgba(27, 214, 224, 1), rgba(27, 214, 224, 0)), url('../assets/vista-destino-de-viagem-da-janela-aviao.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    margin: 0px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+.heroPrincialDiv h3 {
+    margin-left: 30vh;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.heroDiv {
+    margin-left: 30vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.heroDiv h1 {
+    font-family: "Salsa", cursive;
+    font-size: 75px;
+    text-transform: uppercase;
+    background: none;
+    font-weight: 900;
+    margin: 0;
+}
+.heroSection button {
+    margin-left: 30vh;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: var(--azulPrincipal);
+    color: var(--marfim);
+    border: none;
+    cursor: pointer;
+}
+.heroSection button:hover {
+    background-color: var(--marfim);
+    color: var(--azulPrincipal);
+}
+.discoverySection {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.discoverySection nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    margin: 40px;
+}
+.discoverySection h4 {
+    font-weight: 700;
+}
+.discoverySection p {
+    font-weight: 700;
+    border: 2px solid var(--marfim);
+    padding: 3px;
+}
+.discoverySection p:hover {
+    border: 2px solid var(--azulPrincipal);
+    color: var(--azulPrincipal);
+}
+.discovery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.discovery h1 {
+    font-family: "Salsa", cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.discovery img {
+    height: 30px;
+    width: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+.rightArrow {
+    background-color: var(--azulPrincipal);
+}
